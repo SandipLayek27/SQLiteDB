@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="semicolon">;</string>
+    <string name="star">*</string>
+    <string name="drop">DROP TABLE</string>
+    <string name="dropDB">DETACH DATABASE</string>
+</resources>

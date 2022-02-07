@@ -1,0 +1,3 @@
+include ':SQLITEDB'
+include ':app'
+rootProject.name = "SQLiteDBHelper"
