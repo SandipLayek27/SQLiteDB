@@ -200,7 +200,7 @@ public class SQLiteHelper {
             c = db.rawQuery(SELECT_SQL, null);
             int dataCount = c.getCount();
             if(dataCount < 1){
-                Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
                 return null;
             }
             int columnCount = c.getColumnCount();
@@ -260,7 +260,7 @@ public class SQLiteHelper {
             c = db.rawQuery(SELECT_SQL, null);
             int dataCount = c.getCount();
             if(dataCount < 1){
-                Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
                 return null;
             }
             int columnCount = c.getColumnCount();
@@ -328,7 +328,7 @@ public class SQLiteHelper {
             c = db.rawQuery(SELECT_SQL, null);
             int dataCount = c.getCount();
             if(dataCount < 1){
-                Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "NO DATA FOUND", Toast.LENGTH_SHORT).show();
                 return null;
             }
             int columnCount = c.getColumnCount();
